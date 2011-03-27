@@ -23,9 +23,9 @@ allsprites = []
 #youtube shit
 yt = gdata.youtube.service.YouTubeService()
 yt.ssl = False
-api_key, client_id = open('api_key.txt').read().split('\n')
-yt.developer_key = api_key
-yt.client_id = client_id
+#api_key, client_id = open('api_key.txt').read().split('\n')
+#yt.developer_key = api_key
+#yt.client_id = client_id
 
 def generate_comment():
     most_discussed = yt.GetMostDiscussedVideoFeed()
